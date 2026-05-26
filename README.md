@@ -1,4 +1,4 @@
-# 🛡️ FraudShield — Système Multi-Agents de Détection de Fraude
+# FraudShield — Système Multi-Agents de Détection de Fraude
 
 Pipeline séquentiel à 3 agents spécialisés qui analyse chaque transaction suspecte en < 2 secondes.
 
@@ -8,7 +8,7 @@ Transaction → [Agent Scoreur] → [Agent Décision] → [Agent Explication] �
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 fraudshield/
@@ -79,12 +79,9 @@ cp .env.example .env
 python train_model.py
 ```
 
-> ⏱ Durée : ~2-4 minutes (CPU, pas de GPU). Crée `models/rf_fraud.joblib`.
-> Résultat attendu : AUC-ROC > 0.97
-
 ---
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
 ### Mode démo (3 transactions de test — recommandé pour la présentation)
 
@@ -106,7 +103,7 @@ python main.py --live
 
 ---
 
-## 📊 Métriques attendues
+##  Métriques attendues
 
 | Métrique | Valeur cible | Valeur typique |
 |---|---|---|
@@ -117,7 +114,7 @@ python main.py --live
 
 ---
 
-## 🧠 Architecture multi-agents
+##  Architecture multi-agents
 
 ### Pourquoi 3 agents et pas 1 seul LLM ?
 
@@ -137,7 +134,7 @@ Chaque agent a un `backstory` différent qui oriente ses réponses vers sa spéc
 
 ---
 
-## 🔧 Choix techniques
+##  Choix techniques
 
 | Choix | Justification |
 |---|---|
@@ -148,7 +145,7 @@ Chaque agent a un `backstory` différent qui oriente ses réponses vers sa spéc
 
 ---
 
-## ❓ FAQ / Problèmes courants
+##  FAQ / Problèmes courants
 
 **`FileNotFoundError: Modèle introuvable`**
 → Lance d'abord `python train_model.py`
