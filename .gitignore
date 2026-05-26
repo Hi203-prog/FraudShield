@@ -1,0 +1,6 @@
+venv/ 
+*.gguf 
+*.joblib 
+data/*.csv 
+__pycache__/ 
+*.pyc 
