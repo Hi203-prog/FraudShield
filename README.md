@@ -31,7 +31,7 @@ fraudshield/
 
 ---
 
-## ⚙️ Installation (VS Code, pas de GPU requis)
+##  Installation (VS Code, pas de GPU requis)
 
 ### Étape 1 — Créer l'environnement Python
 
@@ -52,7 +52,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> ⏱ Durée : ~2-3 minutes. Tout s'installe en local, pas de Docker requis.
 
 ### Étape 3 — Configurer le LLM
 
