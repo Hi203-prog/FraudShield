@@ -43,6 +43,7 @@ def get_llm():
         api_key="no-key-needed",
         temperature=0.1,
         max_tokens=800,
+        timeout=600
     )
 
 
