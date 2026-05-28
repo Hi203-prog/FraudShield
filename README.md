@@ -194,7 +194,7 @@ Score ≤ 0.3  →  VALIDÉ      (confiance 0.90) → Autoriser la transaction
 
 ## Exemple de rapport généré
 
-### Transaction frauduleuse (TX-DEMO-FRAUDE-60PCT)
+### Transaction ambigu (TX-DEMO-AMBIGU-60PCT)
 RESUME EXECUTIF
 Décision : A_VERIFIER
 Score : 61.24%
